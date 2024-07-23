@@ -28,23 +28,28 @@ The system is intelligent enough to generate accurate queries for given question
 
 
 ## Installation
-
-1.Clone this repository to your local machine using:
+0. cd /path/to/your/project
+   
+2. python -m venv venv
+   
+4. venv\Scripts\activate
+   
+5.Clone this repository to your local machine using:
 
 ```bash
   git clone https://github.com/alexvatti/GenAI-RAG-SQL.git
 ```
-2.Navigate to the project directory:
+6.Navigate to the project directory:
 
 ```bash
   cd GenAI-RAG-SQL
 ```
-3. Install the required dependencies using pip:
+7. Install the required dependencies using pip:
 
 ```bash
   pip install -r requirements.txt
 ```
-4.Acquire an api key from google ai studio & SQL PW and put it in .env file
+5.Acquire an api key from google ai studio & SQL PW and put it in .env file
 
 ```bash
   GOOGLE_API_KEY="your_api_key_here"
