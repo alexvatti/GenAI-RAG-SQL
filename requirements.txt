@@ -7,3 +7,4 @@ sentence-transformers==2.7.0
 streamlit==1.33.0
 python-dotenv==1.0.1
 SQLAlchemy==1.4.39
+pymysql==1.1.1
