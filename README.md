@@ -10,19 +10,18 @@
 - [Contribution](#contribution)
 - [License](#license)
 - [Contact](#contact)
-- 
+
 ## Overview 
-Iris: Talk to a Database  
+**Iris: Talk to a Database**  
 
 This is an end to end LLM project based on Google Gemini and Langchain. We are building a system that can talk to MySQL database. 
 User asks questions in a natural language and the system generates answers by converting those questions to an SQL query and
 then executing that query on MySQL database. 
 
-Iris is popular dataset in MySQL database. 
-will may ask questions such as,
+Iris is popular dataset in MySQL database. will may ask questions such as,
 - find the distinct species in the table?
 - count the number of entries in the table?
-- 
+
 The system is intelligent enough to generate accurate queries for given question and execute them on MySQL database
 
 ![](view.png)
@@ -56,7 +55,7 @@ The system is intelligent enough to generate accurate queries for given question
 ```bash
   pip install -r requirements.txt
 ```
-4.Acquire an api key from google ai studio & SQL PW and put it in .env file
+4. Acquire an API key from Google AI Studio & SQL PW and put it in .env file
 
 ```bash
   GOOGLE_API_KEY="your_api_key_here"
