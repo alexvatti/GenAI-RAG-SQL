@@ -3,10 +3,10 @@
 # Table of Contents
 
 - [Overview](#overview)
-- [Project Highlights](#Project Highlights)
+- [Project Highlights](#Project-Highlights)
 - [Installation](#Installation)
 - [Usage](#Usage)
-- [Sample Questions](#Sample Questions)
+- [Sample Questions](#Sample-Questions)
 - [Contribution](#contribution)
 - [License](#license)
 - [Contact](#contact)
