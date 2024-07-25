@@ -1,6 +1,18 @@
 # GenAI-RAG-SQL
 
-# Iris: Talk to a Database  
+# Table of Contents
+
+- [Overview](#overview)
+- [Project Highlights](#Project Highlights)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Sample Questions](#Sample Questions)
+- [Contribution](#contribution)
+- [License](#license)
+- [Contact](#contact)
+- 
+## Overview 
+Iris: Talk to a Database  
 
 This is an end to end LLM project based on Google Gemini and Langchain. We are building a system that can talk to MySQL database. 
 User asks questions in a natural language and the system generates answers by converting those questions to an SQL query and
@@ -10,12 +22,12 @@ Iris is popular dataset in MySQL database.
 will may ask questions such as,
 - find the distinct species in the table?
 - count the number of entries in the table?
+- 
 The system is intelligent enough to generate accurate queries for given question and execute them on MySQL database
 
 ![](view.png)
 
 ## Project Highlights
-
 
 - We will build an LLM based question and answer system that will use following,
   - Google Gemini LLM
@@ -28,28 +40,23 @@ The system is intelligent enough to generate accurate queries for given question
 
 
 ## Installation
-0. cd /path/to/your/project
    
-2. python -m venv venv
-   
-4. venv\Scripts\activate
-   
-5.Clone this repository to your local machine using:
+1. Clone this repository to your local machine using:
 
 ```bash
   git clone https://github.com/alexvatti/GenAI-RAG-SQL.git
 ```
-6.Navigate to the project directory:
+2. Navigate to the project directory:
 
 ```bash
   cd GenAI-RAG-SQL
 ```
-7. Install the required dependencies using pip:
+3. Install the required dependencies using pip:
 
 ```bash
   pip install -r requirements.txt
 ```
-5.Acquire an api key from google ai studio & SQL PW and put it in .env file
+4.Acquire an api key from google ai studio & SQL PW and put it in .env file
 
 ```bash
   GOOGLE_API_KEY="your_api_key_here"
@@ -62,7 +69,6 @@ The system is intelligent enough to generate accurate queries for given question
 1. Run the Streamlit app by executing:
 ```bash
 streamlit run app.py
-
 ```
 
 2.The web app will open in your browser where you can ask questions
@@ -73,3 +79,13 @@ streamlit run app.py
   - What are the flower names in the table?
   - what is the minimum value of petal length?
   - what is the maximum value of petal length?
+
+## Contribution
+
+Feel free to contribute and enhance the project!
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+For any inquiries or issues, please contact Alex at alexvatti@gmial.com
